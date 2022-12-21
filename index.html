@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1 id="title">Survay</h1>
+    <p id="description"> short explianation for this survey</p>
+    <form id="survey-form" method="post" action="form.php" >
+       <label  id="name-label">Name : </label><br> <input class="inputtext" id="name" type="text" placeholder="put your name" required><br>
+       <label id="email-label">Email : </label><br><input class="inputtext" id="email" type="email" placeholder="put your Email" required><br>
+       <label id="number-label">Number: </label><br><input id="number" type="number" min="0" max="10" value="0"><br>
+       <label id="number-label">Choose from: </label><br><select class="inputtext" id="dropdown">
+        <option value="one"">1st option</option>
+        <option value="two">2nd option</option>
+       </select><br>
+       <label id="number-label">Pick one: </label><br>
+        <input type="radio" name="group1" value ="0">
+       <input type="radio" name="group1" value ="0">
+       <input type="radio" name="group2" value ="0">
+       <input type="radio" name="group2" value ="0"><br><br>
+       <label id="number-label">Check one or more </label><br>
+       <input type="checkbox" id="chk1" value="one">
+       <input type="checkbox" id="chk2" value="two"><br>
+       <label id="number-label">Check one or more </label><br>
+       <input type="checkbox" id="chk3" value="three">
+       <input type="checkbox" id="chk4" value="four"><br>
+       <textarea id="comment"></textarea><br>
+      <button id="submit" type="submit" value="submit"> submit</button>
+    </div>
+
+    </form>
+
+</body>
+</html>
