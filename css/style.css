@@ -1,18 +1,21 @@
 body {
     display: fixed;
-    background-color:aqua; 
+    background-color: aqua;
     text-align: center;
 }
-.inputtext{
-   
+
+.inputtext {
+
     width: 300px;
 }
-h1{
-    color:white;
+
+h1 {
+    color: white;
 }
-div{
+
+div {
     width: 600px;
-    background-color:cadetblue ;
+    background-color: cadetblue;
     padding: 20px;
     margin: auto;
     display: block;
@@ -20,12 +23,12 @@ div{
     justify-content: left;
 }
 
-label{
+label {
     text-align: left;
-    color:bisque;
+    color: bisque;
     font-weight: bold;
     width: 200px;
     font-size: 18px;
     padding: 10px;
-    margin:10px;
+    margin: 10px;
 }
